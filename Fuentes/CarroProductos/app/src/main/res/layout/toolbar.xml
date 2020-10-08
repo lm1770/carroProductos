@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:minHeight="?attr/actionBarSize"
+    android:background="@color/colorPrimaryDark"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    android:id="@+id/toolbar"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/ic_shopping_bag"
+            android:layout_width="@dimen/imagenLogo"
+            android:layout_height="@dimen/imagenLogo">
+        </ImageView>
+        <TextView
+            android:text="SHOPPING"
+            android:textStyle="bold"
+            android:textSize="@dimen/tituloAppSize"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/marginLeftTituloApp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+    </LinearLayout>
+
+</androidx.appcompat.widget.Toolbar>

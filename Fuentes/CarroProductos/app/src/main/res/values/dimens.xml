@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="imagenLogo">100dp</dimen>
+    <dimen name="tituloAppSize">40sp</dimen>
+    <dimen name="marginLeftTituloApp">40dp</dimen>
+    <dimen name="marginLeftProd">30dp</dimen>
+</resources>
