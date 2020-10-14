@@ -1,6 +1,8 @@
 package com.example.carroproductos.dto;
 
-public class Producto {
+import java.io.Serializable;
+
+public class Producto implements Serializable {
     private String nombre;
     private String descripcion;
     private String foto; //aqui va la url de la imagen

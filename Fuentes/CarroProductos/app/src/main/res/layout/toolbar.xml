@@ -7,6 +7,7 @@
     android:background="@color/colorPrimaryDark"
     android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
     app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    android:padding="@dimen/paddingToolbar"
     android:id="@+id/toolbar"
     android:layout_height="wrap_content">
 
@@ -21,6 +22,7 @@
         </ImageView>
         <TextView
             android:text="SHOPPING"
+            android:id="@+id/titulo_toolbar"
             android:textStyle="bold"
             android:textSize="@dimen/tituloAppSize"
             android:layout_gravity="center"
